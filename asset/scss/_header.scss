@@ -32,19 +32,21 @@
 				transform: translateY(-50%);
 			}
 		}
-		a.bar-li{
-			display: block;
-			padding: 5px 0;
-			&:after{display: none;}			
-			span{
-				display: block;
-				height: 3px;
-				width: 40px;
-				background-color: $color-white;
-				margin: 0.4rem 0;
-			}
-			span:first-child{margin: 0;}
-			span:last-child{margin: 0;}
-		}
 	}
+}
+
+a.bar-li{
+	display: block;
+	padding: 5px 0;
+	&:after{display: none;}			
+	span{
+		display: block;
+		height: 3px;
+		width: 40px;
+		background-color: $color-white;
+		margin: 0.4rem 0;
+		position: relative;
+	}
+	span:first-child{margin: 0;}
+	span:last-child{margin: 0;}
 }
