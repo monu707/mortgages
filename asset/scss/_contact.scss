@@ -30,26 +30,6 @@
 	}
 }
 
-.form-bx{
-	.form-group{
-		margin-bottom: 0;
-	}
-	.form-control{
-		border-radius: 0;
-		height: auto;
-		padding: 10px 15px;
-		background-color: #f1f1f1;
-		border: 1px solid #eeeeee;
-		&:focus{
-			border: 1px solid #eeeeee;
-			box-shadow: none;
-		}
-	}
-	textarea.form-control{
-		min-height: 150px;
-	}
-}
-
 .map-sec{
 	#map{
 		width: 100%;

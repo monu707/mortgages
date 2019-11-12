@@ -1,2 +1,45 @@
 // first-time-buyer page scss
 
+.latest-offers-dv{
+	.img{
+		width: 200px;
+		padding: 15px;
+	}
+	.entry-txt{
+		width: calc(100% - 200px);
+	}
+	.txt-bx{
+		font-weight: 500;
+		>div{
+			margin-bottom: 0.5rem;
+		}
+	}
+}
+.speak-to-expert{
+	color: $color-white;
+	a{
+		color: $color-white;
+		&:hover,&:focus{color: $color-d-blue;}	
+	}
+}
+
+.calculate-form{
+	.title{
+		padding-bottom: 0.5rem;
+		border-bottom: 1px solid #eee;
+	}	
+	.form-group{
+		margin-bottom: 1.5rem;
+	}
+	.input-field{
+		background-color: #f1f1f1;
+		.icon{
+			width: 30px;
+			font-size: 1.5rem;			
+			text-align: center;
+		}
+		.input{
+			width: calc(100% - 30px);
+		}
+	}
+}
