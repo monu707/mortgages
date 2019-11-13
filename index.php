@@ -220,11 +220,146 @@
 
 	<section class="common-sec testimonial-sec text-center">
 		<div class="container">
-			<div class="title-bx">
+			<div class="title-bx mb-5">
 				<span class="sub-title">Testimonial</span>
 				<h2 class="entry-title m-0">Fast and very easy application process here</h2>
 				<span class="bot-bar"></span>
 			</div><!-- title-bx -->
+
+			<div class="testimonial-bx">
+				<div class="testimonial-image-slider">
+					<div>
+						<div class="img">
+							<img src="asset/img/team-4.jpg" alt="Display Image">
+						</div>
+					</div>
+					<div>
+						<div class="img">
+							<img src="asset/img/team-3.jpg" alt="Display Image">
+						</div>
+					</div>
+					<div>
+						<div class="img">
+							<img src="asset/img/team-2.jpg" alt="Display Image">
+						</div>
+					</div>
+					<div>
+						<div class="img">
+							<img src="asset/img/team-1.jpg" alt="Display Image">
+						</div>
+					</div>
+					<div>
+						<div class="img">
+							<img src="asset/img/team-4.jpg" alt="Display Image">
+						</div>
+					</div>
+					<div>
+						<div class="img">
+							<img src="asset/img/team-2.jpg" alt="Display Image">
+						</div>
+					</div>
+				</div><!-- testimonial-image-slider -->
+
+				<div class="testimonial-txt-slider">
+					<div>
+						<div class="entry-txt">
+							<div class="desc">
+								There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary
+							</div>
+							<h4 class="name text-black">Mishen Walker</h4>
+							<div class="desig text-black">CEO Company</div>
+							<div class="t-review">
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="entry-txt">
+							<div class="desc">
+								Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+							</div>
+							<h4 class="name text-black">Mishen Walker</h4>
+							<div class="desig text-black">CEO Company</div>
+							<div class="t-review">
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="entry-txt">
+							<div class="desc">
+								The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+							</div>
+							<h4 class="name text-black">Mishen Walker</h4>
+							<div class="desig text-black">CEO Company</div>
+							<div class="t-review">
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="entry-txt">
+							<div class="desc">
+								It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+							</div>
+							<h4 class="name text-black">Mishen Walker</h4>
+							<div class="desig text-black">CEO Company</div>
+							<div class="t-review">
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="entry-txt">
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid voluptatum similique distinctio eos explicabo quia ipsa quidem vitae harum fugit voluptate magnam, ullam deserunt libero, rerum mollitia! Quod, cumque, aliquid! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid voluptatum similique distinctio eos explicabo quia ipsa quidem vitae harum fugit voluptate magnam, ullam deserunt libero, rerum mollitia! Quod, cumque, aliquid!
+							</div>
+							<h4 class="name text-black">Mishen Walker</h4>
+							<div class="desig text-black">CEO Company</div>
+							<div class="t-review">
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="entry-txt">
+							<div class="desc">
+								The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+							</div>
+							<h4 class="name text-black">Mishen Walker</h4>
+							<div class="desig text-black">CEO Company</div>
+							<div class="t-review">
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+							</div>
+						</div>
+					</div>
+				</div><!-- testimonial-txt-slider -->
+			</div><!-- testimonial-bx -->
+
 		</div><!-- container -->
 	</section><!-- common-sec -->
 

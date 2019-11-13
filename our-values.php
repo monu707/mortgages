@@ -185,7 +185,7 @@
 
 	<section class="common-sec testimonial-sec text-center">
 		<div class="container">
-			<div class="title-bx text-center mb-5">
+			<div class="title-bx mb-5">
 				<span class="sub-title">Testimonial</span>
 				<h2 class="entry-title m-0">Our Happy Clients</h2>
 				<span class="bot-bar"></span>
@@ -225,7 +225,7 @@
 					</div>
 				</div><!-- testimonial-image-slider -->
 
-				<div class="testimonial-txt-slider mt-5">
+				<div class="testimonial-txt-slider">
 					<div>
 						<div class="entry-txt">
 							<div class="desc">
@@ -233,6 +233,13 @@
 							</div>
 							<h4 class="name text-black">Mishen Walker</h4>
 							<div class="desig text-black">CEO Company</div>
+							<div class="t-review">
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+							</div>
 						</div>
 					</div>
 					<div>
@@ -242,6 +249,13 @@
 							</div>
 							<h4 class="name text-black">Mishen Walker</h4>
 							<div class="desig text-black">CEO Company</div>
+							<div class="t-review">
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+							</div>
 						</div>
 					</div>
 					<div>
@@ -251,6 +265,13 @@
 							</div>
 							<h4 class="name text-black">Mishen Walker</h4>
 							<div class="desig text-black">CEO Company</div>
+							<div class="t-review">
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+							</div>
 						</div>
 					</div>
 					<div>
@@ -260,6 +281,13 @@
 							</div>
 							<h4 class="name text-black">Mishen Walker</h4>
 							<div class="desig text-black">CEO Company</div>
+							<div class="t-review">
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+							</div>
 						</div>
 					</div>
 					<div>
@@ -269,6 +297,13 @@
 							</div>
 							<h4 class="name text-black">Mishen Walker</h4>
 							<div class="desig text-black">CEO Company</div>
+							<div class="t-review">
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+							</div>
 						</div>
 					</div>
 					<div>
@@ -278,10 +313,17 @@
 							</div>
 							<h4 class="name text-black">Mishen Walker</h4>
 							<div class="desig text-black">CEO Company</div>
+							<div class="t-review">
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span class="active"><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								<span><i class="fa fa-star" aria-hidden="true"></i></span>
+							</div>
 						</div>
 					</div>
 				</div><!-- testimonial-txt-slider -->
-			</div><!-- testimonial-bx -->			
+			</div><!-- testimonial-bx -->
 
 		</div><!-- container -->
 	</section><!-- common-sec -->

@@ -576,34 +576,67 @@ p:last-child {
   border-radius: 100%;
   overflow: hidden;
   margin: 0 auto; }
-.testimonial-bx .testimonial-txt-slider {
-  padding-top: 3rem; }
+.testimonial-bx .testimonial-image-slider:after {
+  content: '';
+  width: 80px;
+  height: 80px;
+  display: block;
+  background: transparent url(../img/testimonial-quotes.png) center no-repeat;
+  background-size: contain;
+  margin: -3rem auto 2rem; }
 .testimonial-bx .entry-txt {
   max-width: 800px;
   margin: 0 auto;
   font-weight: 600; }
   .testimonial-bx .entry-txt .desc {
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    min-height: 150px; }
   .testimonial-bx .entry-txt .name {
     margin-bottom: 0.5rem; }
   .testimonial-bx .entry-txt .desig {
     font-size: 0.75rem; }
+  .testimonial-bx .entry-txt .t-review span {
+    font-size: 1.1rem;
+    color: #EEEEEE; }
+  .testimonial-bx .entry-txt .t-review span.active {
+    color: #F6CE31; }
 .testimonial-bx .slick-arrow {
   height: 60px;
   width: 60px;
   line-height: 60px;
   text-align: center;
   background-color: #eeeeee;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 100%; }
-.testimonial-bx .slick-arrow:before {
-  display: none; }
+  border-radius: 100%;
+  z-index: 99;
+  top: auto;
+  bottom: 1rem;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  transform: none; }
 .testimonial-bx .slick-prev {
-  background-image: url("../img/arrow-left.png"); }
+  left: calc(50% - 190px); }
 .testimonial-bx .slick-next {
+  right: calc(50% - 190px); }
+.testimonial-bx .slick-arrow:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 30px;
+  margin: 0 auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
+.testimonial-bx .slick-prev:before {
+  background-image: url("../img/arrow-left.png"); }
+.testimonial-bx .slick-next:before {
   background-image: url("../img/arrow-right.png"); }
 
+.testimonial-image-slider .slick-list {
+  min-height: 300px; }
 .testimonial-image-slider .slick-slide .img {
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -618,6 +651,20 @@ p:last-child {
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1); }
+.testimonial-image-slider .slick-slide {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  -webkit-transform: translateY(150px);
+  -moz-transform: translateY(150px);
+  -ms-transform: translateY(150px);
+  transform: translateY(150px); }
+.testimonial-image-slider .slick-slide.slick-active.slick-center {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  transform: none; }
 
 .main-header .navbar-brand {
   max-width: 250px; }

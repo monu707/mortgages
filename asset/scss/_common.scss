@@ -779,21 +779,38 @@ p:last-child{
 		overflow: hidden;
 		margin: 0 auto;
 	}
-	.testimonial-txt-slider{
-		padding-top: 3rem;
+	.testimonial-image-slider:after{
+		content: '';
+		width: 80px;
+		height: 80px;
+		display: block;
+		background:transparent url(../img/testimonial-quotes.png) center no-repeat;
+		background-size: contain;
+		margin: -3rem auto 2rem;
 	}
+
 	.entry-txt{
 		max-width: 800px;
 		margin: 0 auto;
 		font-weight: 600;
 		.desc{
 			margin-bottom: 2rem;
+			min-height: 150px;
 		}
 		.name{
 			margin-bottom: 0.5rem;
 		}
 		.desig{
 			font-size: 0.75rem;
+		}
+		.t-review{
+			span{
+				font-size: 1.1rem;
+				color:#EEEEEE;
+			}
+			span.active{
+				color:#F6CE31;
+			}
 		}
 	}
 	.slick-arrow{
@@ -802,32 +819,59 @@ p:last-child{
 		line-height: 60px;
 		text-align: center;
 		background-color: #eeeeee;
-		background-repeat: no-repeat;
-		background-position: center;
 		border-radius: 100%;
-	}
-	.slick-arrow:before{
-		display: none;
+		z-index: 99;
+		top:auto;
+		bottom: 1rem;
+		@include transform(none);
 	}
 	.slick-prev{
-		background-image: url('../img/arrow-left.png');
+		left: calc(50% - 190px);
 	}
 	.slick-next{
+		right: calc(50% - 190px);
+	}
+	.slick-arrow:before{
+		content: '';
+		position: absolute;
+		top:0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 30px;
+		margin: 0 auto;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.slick-prev:before{
+		background-image: url('../img/arrow-left.png');
+	}
+	.slick-next:before{
 		background-image: url('../img/arrow-right.png');
 	}
 }
 
 .testimonial-image-slider{
+	.slick-list{
+		min-height: 300px;
+	}
 	.slick-slide{
 		.img{
 			@include common-transition;
 			@include transform(scale(0.7));
 		}
+	}	
+	.slick-slide.slick-center{
+		.img{
+			@include transform(scale(1));
+		}	
 	}
-	//.slick-slide.slick-current{
-		.slick-slide.slick-center{
-			.img{
-				@include transform(scale(1));
-			}	
-		}
+	.slick-slide{
+		@include common-transition;
+		@include transform(translateY(150px));
 	}
+	.slick-slide.slick-active.slick-center{
+		@include transform(none);
+	}
+}

@@ -76,7 +76,7 @@ $site_url = 'http://'.$_SERVER['SERVER_NAME'].'/mortgages';
 									</li>
 
 									<li>
-										<a href="javascript:void(0);">Home Insurance</a>
+										<a href="<?php echo $site_url; ?>/our-values.php">Our Values</a>
 									</li>
 								</ul>
 							</div><!-- col -->
@@ -88,13 +88,7 @@ $site_url = 'http://'.$_SERVER['SERVER_NAME'].'/mortgages';
 									</li>
 
 									<li>
-										<a href="">Mortgage Best buy</a>
-										<ul class="sub-menu">
-											<li><a href="<?php echo $site_url; ?>/about.php">About</a></li>
-											<li><a href="<?php echo $site_url; ?>/contact.php">contact</a></li>
-											<li><a href="<?php echo $site_url; ?>/mortgage-guide.php">Mortgage Guide</a></li>
-											<li><a href="<?php echo $site_url; ?>/first-time-buyer.php">first-time-buyer</a></li>
-										</ul>
+										<a href="javascript:void(0);">Mortgage Best buy</a>
 									</li>
 
 									<li>
