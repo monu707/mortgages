@@ -40,11 +40,15 @@
 			<div class="career-advice-sec mt-5">
 				<div class="row">
 					<div class="col-lg-6">
+						<?php /* ?>
 						<div class="img img-cover h-100">
 							<img src="asset/img/blog-1.png" alt="Image">
 						</div>
+						<?php */ ?>
+						<div class="youtube-player" data-id="6qGiXY1SB68"></div>
 					</div><!-- col -->
-					<div class="col-lg-6">
+					
+					<div class="col-lg-6">						
 						<div class="entry-content">
 							<h2 class="entry-title text-black">Know More About Free Mortgage Advice</h2>
 							<div class="entry-txt">
