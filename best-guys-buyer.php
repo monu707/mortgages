@@ -125,18 +125,55 @@
 				<span class="bot-bar"></span>
 			</div><!-- title-bx -->
 
+			<div class="title-bx mb-3">
+				<h3 class="entry-title m-0 pb-0">Filters</h3>
+				<span class="bot-bar"></span>
+			</div>
+
 			<div class="row">
 				<div class="col-lg-3 col-md-4 bg-white box-shadow">
 					<div class="filter-sec">
+						<div class="filter-cat-dv mb-4">
+							<div class="row px-2">
+								<div class="col-sm-6 px-1">
+									<div class="cat-input">
+										<input type="radio" name="perchase_remortgage" id="purchase" checked>
+										<label class="radio-btn" for="purchase">Purchase</label>
+									</div>
+								</div><!-- col -->
+
+								<div class="col-sm-6 px-1">
+									<div class="cat-input">
+										<input type="radio" name="perchase_remortgage" id="remortgage">
+										<label class="radio-btn" for="remortgage">Remortgage</label>
+									</div>
+								</div><!-- col -->
+
+								<div class="col-sm-6 px-1">
+									<div class="cat-input">
+										<input type="radio" name="residential_buytolet" id="residential" checked>
+										<label class="radio-btn" for="residential">Residential</label>
+									</div>
+								</div><!-- col -->
+
+								<div class="col-sm-6 px-1">
+									<div class="cat-input">
+										<input type="radio" name="residential_buytolet" id="buy_to_let">
+										<label class="radio-btn" for="buy_to_let">Buy - To- Let</label>
+									</div>
+								</div><!-- col -->
+							</div><!-- row -->
+						</div><!-- filter-cat -->
+
 						<div class="filter-dv mb-4">
 							<h4 class="text-black mb-3">Types of Mortgage</h4>
 							<div class="filter-options">
 								<div class="radio">
-									<input id="radio-1" name="radio" type="radio" checked>
+									<input id="radio-1" name="fixed" type="checkbox" checked>
 									<label for="radio-1" class="radio-label">Fixed</label>
 								</div>
 								<div class="radio">
-									<input id="radio-2" name="radio" type="radio">
+									<input id="radio-2" name="variable" type="checkbox">
 									<label  for="radio-2" class="radio-label">Variable</label>
 								</div>
 							</div><!-- filter-options -->
@@ -146,19 +183,19 @@
 							<h4 class="text-black mb-3">Product Period</h4>
 							<div class="filter-options">
 								<div class="radio">
-									<input id="radio-3" name="radio1" type="radio" checked>
-									<label for="radio-3" class="radio-label">Up to 2 years </label>
+									<input id="radio-3" name="Upto_years2" type="checkbox" checked>
+									<label for="radio-3" class="radio-label">Up to 2 years</label>
 								</div>
 								<div class="radio">
-									<input id="radio-4" name="radio1" type="radio">
+									<input id="radio-4" name="years3" type="checkbox">
 									<label  for="radio-4" class="radio-label">3 years</label>
 								</div>
 								<div class="radio">
-									<input id="radio-5" name="radio1" type="radio">
+									<input id="radio-5" name="years5" type="checkbox">
 									<label  for="radio-5" class="radio-label">5 years</label>
 								</div>
 								<div class="radio">
-									<input id="radio-6" name="radio1" type="radio">
+									<input id="radio-6" name="morethan_years5" type="checkbox">
 									<label  for="radio-6" class="radio-label">More than 5 years</label>
 								</div>
 							</div><!-- filter-options -->
@@ -168,15 +205,15 @@
 							<h4 class="text-black mb-3">Others Features</h4>
 							<div class="filter-options">
 								<div class="radio">
-									<input id="radio-7" name="radio2" type="radio" checked>
+									<input id="radio-7" name="helpto_buy" type="checkbox" checked>
 									<label for="radio-7" class="radio-label">Help To Buy</label>
 								</div>
 								<div class="radio">
-									<input id="radio-8" name="radio2" type="radio">
+									<input id="radio-8" name="offset" type="checkbox">
 									<label  for="radio-8" class="radio-label">Offset</label>
 								</div>
 								<div class="radio">
-									<input id="radio-9" name="radio2" type="radio">
+									<input id="radio-9" name="early_repayment_charge" type="checkbox">
 									<label  for="radio-9" class="radio-label">No Early repayment charge</label>
 								</div>
 							</div><!-- filter-options -->
@@ -190,7 +227,6 @@
 
 				<div class="col-lg-9 col-md-8">
 					<div class="matching-mortgages-offers">
-
 						<div class="latest-offers-bx">
 							<div class="latest-offers-dv p-4 box-shadow bg-white">
 								<div class="row m-0">

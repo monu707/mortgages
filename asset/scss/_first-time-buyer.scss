@@ -65,9 +65,30 @@
 
 .filter-sec{
 	padding: 2rem 0;
+
+	.cat-input{
+		margin-bottom: 1rem;
+		input {
+			display: none;
+		}
+		label {
+			padding: 10px;
+			margin-bottom: 0;
+			background-color: #f1f1f1;
+			width: 100%;
+			text-align: center;
+			cursor: pointer;
+			color: $color-black;
+			border-radius: 1.5rem;
+		}
+		input:checked+label{
+			@include bg-gradient;
+			color: $color-white;
+		}
+	}
 	.radio{
 		label{cursor: pointer;}
-		input[type="radio"] {
+		input[type="checkbox"] {
 			position: absolute;
 			opacity: 0;
 			+ .radio-label {
