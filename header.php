@@ -92,7 +92,7 @@ $site_url = 'http://'.$_SERVER['SERVER_NAME'].'/mortgages';
 									</li>
 
 									<li>
-										<a href="javascript:void(0);">Reviews</a>
+										<a href="<?php echo $site_url; ?>/customer-reviews.php">Reviews</a>
 									</li>
 
 									<li>

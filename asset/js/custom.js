@@ -125,7 +125,7 @@ $( document ).ready(function() {
 
 	$(".testimonial-image-slider .slick-center").prev().css('transform', 'translateY(50px)');
 	$(".testimonial-image-slider .slick-center").next().css('transform', 'translateY(50px)');
-	$('.slick-arrow, .testimonial-image-slider .slick-slide').click(function() {
+	$('.slick-arrow, .slick-slide').click(function() {
 		//setTimeout(function(){
 			$(".testimonial-image-slider .slick-slide").css('transform', 'translateY(150px)');
 			if ($('.testimonial-image-slider .slick-slide').hasClass('slick-center')){
@@ -135,6 +135,15 @@ $( document ).ready(function() {
 			}
 		//}, 1000);
 	});
+
+	$('.c-review-slider').slick({
+		dots: false,
+		infinite: true,
+		speed: 500,
+		fade: true,
+		cssEase: 'linear'
+	});
+
 
     //document ready close
 });

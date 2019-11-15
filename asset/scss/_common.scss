@@ -43,7 +43,7 @@ $color-red: #e41d1d;
 	transition: all 0.3s ease-out;
 }
 
-// @include transform());
+// @include transform();
 @mixin transform($transforms) {
 	-webkit-transform: $transforms;
 	-moz-transform: $transforms;
@@ -841,25 +841,31 @@ p:last-child{
 		top:auto;
 		bottom: 1rem;
 		@include transform(none);
+		&:before{
+			content: '';
+			position: absolute;
+			top:0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			width: 30px;
+			margin: 0 auto;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+		&:hover,&:focus{
+			background-color: $color-blue;
+			&:before{
+				filter: brightness(0) invert(1);
+			}
+		}
 	}
 	.slick-prev{
 		left: calc(50% - 190px);
 	}
 	.slick-next{
 		right: calc(50% - 190px);
-	}
-	.slick-arrow:before{
-		content: '';
-		position: absolute;
-		top:0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		width: 30px;
-		margin: 0 auto;
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: center;
 	}
 	.slick-prev:before{
 		background-image: url('../img/arrow-left.png');
