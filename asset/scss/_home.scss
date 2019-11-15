@@ -1,31 +1,33 @@
 // home page scss
 
-.home-header-sec{
-	.main-header{
-		background: none;
-		position: absolute;
-		z-index: 999;
-		top: 0;
-		left: 0;
-		right: 0;
+@media (min-width: 992px){
+	.home-header-sec{
+		.main-header{
+			background: none;
+			position: absolute;
+			z-index: 999;
+			top: 0;
+			left: 0;
+			right: 0;
+		}
 	}
-}
-.home-banner{
-	&:after{
-		content: '';
-		position: absolute;
-		width: 50%;
-		left: 0;
-		top: 0;
-		bottom: 0;
-		background-color: $color-blue;
-	}
-	.caption-bx{
-		padding: 6rem 0;
-		min-height: calc(100vh - 50px);
-		.page-title{
-			font-size: 3.5rem;
-			font-weight: bold;
+	.home-banner{
+		&:after{
+			content: '';
+			position: absolute;
+			width: 50%;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			background-color: $color-blue;
+		}
+		.caption-bx{
+			padding: 6rem 0;
+			min-height: calc(100vh - 50px);
+			.page-title{
+				font-size: 3.5rem;
+				font-weight: bold;
+			}
 		}
 	}
 }

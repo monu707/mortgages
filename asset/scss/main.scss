@@ -13,37 +13,4 @@
 @import 'first-time-buyer';
 @import 'news';
 @import 'conveyancing';
-
-@media (min-width: 767px){
-	.mortgage-bx{width: 55%;}
-	.localbank-bx{width: 45%;}
-}
-@media (min-width: 1200px){
-	.container {
-		max-width: 1190px;
-	}
-}
-@media (min-width: 1600px){
-	.container {
-		max-width: 1560px;
-	}
-	.work-bx{
-		.entry-txt{
-			font-size: 1rem;
-		}
-	}
-	.latest-awars{
-		.img{width: 170px;}
-		.entry-txt{width: calc(100% - 170px);}
-	}
-}
-
-
-@media (max-width: 1440px){
-	.work-bg-curve{
-		background-size: calc(100% - 300px) auto;
-	}
-	body{
-		font-size: 0.875rem;
-	}
-}
+@import 'responsive';

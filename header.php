@@ -54,7 +54,7 @@ $site_url = 'http://'.$_SERVER['SERVER_NAME'].'/mortgages';
 						</a>
 
 						<div class="row">
-							<div class="col-lg-4 col-sm-6">
+							<div class="col-md-4 col-sm-6">
 								<ul class="menu-bx">
 									<li>
 										<a href="<?php echo $site_url; ?>/mortgage-guide.php">Mortgage Guide</a>
@@ -81,7 +81,7 @@ $site_url = 'http://'.$_SERVER['SERVER_NAME'].'/mortgages';
 								</ul>
 							</div><!-- col -->
 
-							<div class="col-lg-4 col-sm-6">
+							<div class="col-md-4 col-sm-6">
 								<ul class="menu-bx">
 									<li>
 										<a href="<?php echo $site_url; ?>/conveyancing.php">Conveyancing</a>
@@ -101,7 +101,7 @@ $site_url = 'http://'.$_SERVER['SERVER_NAME'].'/mortgages';
 								</ul>
 							</div><!-- col -->
 
-							<div class="col-lg-4 col-sm-6">
+							<div class="col-md-4 col-sm-6">
 								<ul class="menu-bx">
 									<li>
 										<a href="<?php echo $site_url; ?>/about.php">About</a>

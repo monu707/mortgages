@@ -104,12 +104,28 @@ $( document ).ready(function() {
 		dots: false,
 		arrows: false,
 		centerMode: true,
-		focusOnSelect: true
+		focusOnSelect: true,
+		responsive: [
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 3,
+				slidesToScroll: 1
+			}
+		},
+		{
+			breakpoint: 576,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1
+			}
+		}
+		]
 	});
 
 	$(".testimonial-image-slider .slick-center").prev().css('transform', 'translateY(50px)');
 	$(".testimonial-image-slider .slick-center").next().css('transform', 'translateY(50px)');
-	$('.slick-arrow').click(function() {
+	$('.slick-arrow, .testimonial-image-slider .slick-slide').click(function() {
 		//setTimeout(function(){
 			$(".testimonial-image-slider .slick-slide").css('transform', 'translateY(150px)');
 			if ($('.testimonial-image-slider .slick-slide').hasClass('slick-center')){

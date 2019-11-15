@@ -495,21 +495,29 @@ p:last-child{
 		border: 1px solid #eee;
 		background-color: $color-white;
 		align-items: center;
+		height: 100%;
 		.icon{
-			width: 30px;
-			height: 30px;
+			width: 40px;
 			text-align: center;
 			font-size: 2rem;
 			margin: 5px;
+			img{
+				vertical-align: sub;
+			}
 		}
 		.input{
-			width: calc(100% - 35px);
+			width: calc(100% - 45px);
 		}
 		input{
 			border:none;
 			width: 100%;
 			height: auto;
 			outline: none;
+			padding: 5px 10px;
+			vertical-align: text-top;
+			font-weight: 600;
+			font-size: 1rem;
+			color: #C6C6C6;
 		}
 	}
 	.submit{

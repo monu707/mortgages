@@ -37,7 +37,7 @@
 			</div><!-- title-bx -->
 
 			<div class="row align-items-center work-bg-curve">
-				<div class="col-lg-3 col-sm-6 mt-4">
+				<div class="col-xl-3 col-sm-6 mt-4">
 					<div class="work-bx d-flex flex-column justify-content-center">
 						<div class="icon-dv">
 							<span class="icon">
@@ -55,7 +55,7 @@
 					</div><!-- work-bx -->
 				</div><!-- col -->
 
-				<div class="col-lg-3 col-sm-6 mt-4">
+				<div class="col-xl-3 col-sm-6 mt-4">
 					<div class="work-bx d-flex flex-column justify-content-center">
 						<div class="icon-dv">
 							<span class="icon">
@@ -73,7 +73,7 @@
 					</div><!-- work-bx -->
 				</div><!-- col -->
 
-				<div class="col-lg-3 col-sm-6 mt-4">
+				<div class="col-xl-3 col-sm-6 mt-4">
 					<div class="work-bx d-flex flex-column justify-content-center">
 						<div class="icon-dv">
 							<span class="icon">
@@ -91,7 +91,7 @@
 					</div><!-- work-bx -->
 				</div><!-- col -->
 
-				<div class="col-lg-3 col-sm-6 mt-4">
+				<div class="col-xl-3 col-sm-6 mt-4">
 					<div class="work-bx d-flex flex-column justify-content-center">
 						<div class="icon-dv">
 							<span class="icon">
@@ -119,10 +119,10 @@
 				<div class="col-lg-6">
 					<div class="img h-100">
 						<div class="row h-100">
-							<div class="col-md-5 p-0 mb-3">
+							<div class="col-xl-5 col-lg-12 col-sm-6 p-0 mb-3">
 								<div class="img-1"><img src="asset/img/image-1.png" alt="Image"></div>
 							</div><!-- col -->
-							<div class="col-md-7 mb-3">
+							<div class="col-xl-7 col-lg-12 col-sm-6 mb-3">
 								<div class="img-2"><img src="asset/img/image-2.png" alt="Image"></div>
 							</div><!-- col -->
 							<div class="col-md-6 pl-0">

@@ -1,7 +1,7 @@
 <form action="" method="post">
 	<div class="schedule-form mx-auto">
 		<div class="row m-0">
-			<div class="col-md-3 p-0">
+			<div class="col-md-3 col-sm-6 p-0">
 				<div class="input-icon d-flex">
 					<div class="icon">
 						<!-- <span><i class="fa fa-user-o" aria-hidden="true"></i></span> -->
@@ -13,7 +13,7 @@
 				</div>
 			</div><!-- col -->
 
-			<div class="col-md-3 p-0">
+			<div class="col-md-3 col-sm-6 p-0">
 				<div class="input-icon d-flex">
 					<div class="icon">
 						<!-- <span><i class="fa fa-clock-o" aria-hidden="true"></i></span> -->
@@ -25,7 +25,7 @@
 				</div>
 			</div><!-- col -->
 
-			<div class="col-md-3 p-0">
+			<div class="col-md-3 col-sm-6 p-0">
 				<div class="input-icon d-flex">
 					<div class="icon">
 						<!-- <span><i class="fa fa-calendar" aria-hidden="true"></i></span> -->
@@ -37,7 +37,7 @@
 				</div>
 			</div><!-- col -->
 
-			<div class="col-md-3 p-0">
+			<div class="col-md-3 col-sm-6 p-0">
 				<div class="submit h-100">
 					<button type="submit" class="common-btn">submit</button>
 				</div>
