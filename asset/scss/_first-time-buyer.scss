@@ -13,7 +13,7 @@
 		>div{
 			margin-bottom: 0.5rem;
 		}
-	}
+	}	
 }
 .speak-to-expert{
 	color: $color-white;
@@ -63,6 +63,11 @@
 	}
 }
 
+.filters-title-bx .bot-bar{
+	display: block;
+	margin-top: 10px;
+	background-color: $color-blue;
+}
 .filter-sec{
 	padding: 2rem 0;
 
@@ -145,3 +150,4 @@
 		}
 	}
 }
+

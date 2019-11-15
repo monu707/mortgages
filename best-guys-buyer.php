@@ -124,15 +124,21 @@
 				<h2 class="entry-title m-0">Matching Mortgages</h2>
 				<span class="bot-bar"></span>
 			</div><!-- title-bx -->
-
-			<div class="title-bx mb-3">
-				<h3 class="entry-title m-0 pb-0">Filters</h3>
-				<span class="bot-bar"></span>
-			</div>
-
+			
 			<div class="row">
 				<div class="col-lg-3 col-md-4 bg-white box-shadow">
-					<div class="filter-sec">
+					<div class="row p-3 justify-content-between">
+						<div class="title-bx filters-title-bx">
+							<h4 class="entry-title m-0 pb-0">Filters</h4>
+							<span class="bot-bar"></span>
+						</div>
+
+						<div class="title-bx">
+							<a href="javascript:void(0);" class="h4 text-blue m-0 pb-0">Reset All</a>
+						</div>
+					</div>
+
+					<div class="filter-sec pt-3">
 						<div class="filter-cat-dv mb-4">
 							<div class="row px-2">
 								<div class="col-sm-6 px-1">
@@ -229,6 +235,7 @@
 					<div class="matching-mortgages-offers">
 						<div class="latest-offers-bx">
 							<div class="latest-offers-dv p-4 box-shadow bg-white">
+								<p class="text-black font-weight-bold">Max LTV 60%: Base +0.43% to 31/12/21</p>
 								<div class="row m-0">
 									<div class="img box-shadow">
 										<img src="asset/img/Mortgage-Logo.png" alt="Image">
@@ -240,7 +247,16 @@
 											<div class="overall-cost">Overall cost for comparison <span class="text-black">3.7% APRC</span></div>
 										</div>
 										<div class="link">
-											<a class="btn-border btn-radius" href="javascript:void(0);">Learn More</a>
+											<h4 class="text-red mb-0">Annual cost</h4>
+											<p class="text-black">£6,376</p>
+											<div class="links-dv d-inline-flex flex-column">
+												<div class="bd mb-3">
+													<a class="btn-border" href="javascript:void(0);">Enquire</a>
+												</div>
+												<div class="bd">
+													<a class="btn-border" href="javascript:void(0);">More</a>
+												</div>
+											</div>
 										</div>
 									</div><!-- entry-txt -->
 								</div><!-- row -->
@@ -252,6 +268,7 @@
 
 						<div class="latest-offers-bx">
 							<div class="latest-offers-dv p-4 box-shadow bg-white">
+								<p class="text-black font-weight-bold">Max LTV 60%: Base +0.43% to 31/12/21</p>
 								<div class="row m-0">
 									<div class="img box-shadow">
 										<img src="asset/img/Mortgage-Logo.png" alt="Image">
@@ -263,7 +280,16 @@
 											<div class="overall-cost">Overall cost for comparison <span class="text-black">3.7% APRC</span></div>
 										</div>
 										<div class="link">
-											<a class="btn-border btn-radius" href="javascript:void(0);">Learn More</a>
+											<h4 class="text-red mb-0">Annual cost</h4>
+											<p class="text-black">£6,376</p>
+											<div class="links-dv d-inline-flex flex-column">
+												<div class="bd mb-3">
+													<a class="btn-border" href="javascript:void(0);">Enquire</a>
+												</div>
+												<div class="bd">
+													<a class="btn-border" href="javascript:void(0);">More</a>
+												</div>
+											</div>
 										</div>
 									</div><!-- entry-txt -->
 								</div><!-- row -->
@@ -275,6 +301,7 @@
 
 						<div class="latest-offers-bx">
 							<div class="latest-offers-dv p-4 box-shadow bg-white">
+								<p class="text-black font-weight-bold">Max LTV 60%: Base +0.43% to 31/12/21</p>
 								<div class="row m-0">
 									<div class="img box-shadow">
 										<img src="asset/img/Mortgage-Logo.png" alt="Image">
@@ -286,7 +313,16 @@
 											<div class="overall-cost">Overall cost for comparison <span class="text-black">3.7% APRC</span></div>
 										</div>
 										<div class="link">
-											<a class="btn-border btn-radius" href="javascript:void(0);">Learn More</a>
+											<h4 class="text-red mb-0">Annual cost</h4>
+											<p class="text-black">£6,376</p>
+											<div class="links-dv d-inline-flex flex-column">
+												<div class="bd mb-3">
+													<a class="btn-border" href="javascript:void(0);">Enquire</a>
+												</div>
+												<div class="bd">
+													<a class="btn-border" href="javascript:void(0);">More</a>
+												</div>
+											</div>
 										</div>
 									</div><!-- entry-txt -->
 								</div><!-- row -->

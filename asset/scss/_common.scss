@@ -2,14 +2,13 @@
 
 // common vars
 $site-color: #959595;
-
 $color-blue: #47aff9;
 $color-d-blue: #3a559f;
 $color-white: #ffffff;
 $color-black: #000;
 $color-light-black: #0b0b0b;
 $color-gray: #f8f8f8;
-
+$color-red: #e41d1d;
 
 //mixins
 // @include box-shadow;
@@ -338,6 +337,7 @@ p:last-child{
 // common classes
 .text-blue{color: $color-blue;}
 .text-black{color: $color-black;}
+.text-red{color: $color-red;}
 
 .bg-blue{background-color: $color-blue;}
 .bg-black{background-color: $color-black;}
@@ -394,11 +394,20 @@ p:last-child{
 		color: $color-white;
 	}
 }
+
+.bd{
+	@include bg-gradient;
+	padding: 2px;
+	display: inline-block;
+	border-radius: 0.3rem;
+}
 .btn-border{
-	border: 2px solid;
-	@include border-gradient;
-	padding: 5px 10px;
+	background-color: $color-white;
+	padding: 2px 10px;
 	color: $color-blue;
+	border-radius: 0.3rem;
+	min-width: 100px;
+	text-align: center;
 	&:hover,&:focus{
 		color: $color-white;
 		@include bg-gradient;
