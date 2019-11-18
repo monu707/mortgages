@@ -86,6 +86,10 @@ ul{
 hr{
 	margin: 2rem 0;
 	border-top-color: $color-blue;
+	border: none;
+	height: 2px;
+	background:transparent url('../img/Faq_line.png') center no-repeat;
+	background-size: cover;
 }
 
 .h1, h1, .h2, h2, .h3, h3, .h4, h4, .h5, h5, .h6, h6{
