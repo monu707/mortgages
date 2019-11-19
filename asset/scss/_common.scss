@@ -687,11 +687,18 @@ p:last-child{
 		&:first-child{border-radius: 0;}
 		background:none;
 		border-bottom: none;
-		.icon{
-			margin-left: 0.5rem;
-			cursor: pointer;
-			&:hover,&:focus{
-				@include transform(scale(0.9));
+		.d-flex{
+			span{
+				display: block;
+				width: calc(100% - 60px);
+			}
+			.icon{
+				margin-left: 10px;
+				cursor: pointer;
+				width: 50px;
+				&:hover,&:focus{
+					@include transform(scale(0.9));
+				}
 			}
 		}
 	}
