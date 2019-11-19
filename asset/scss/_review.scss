@@ -31,7 +31,7 @@
 		background-color: #eeeeee;
 		border-radius: 100%;
 		z-index: 99;
-		top: 50%;
+		top: calc(50% - 10%);
 		&:before{
 			content: '';
 			position: absolute;

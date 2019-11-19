@@ -178,7 +178,9 @@
 								<div class="overall-cost">Overall cost for comparison <span class="text-black">3.7% APRC</span></div>
 							</div>
 							<div class="link">
-								<a class="btn-border btn-radius" href="javascript:void(0);">Learn More</a>
+								<div class="bd">
+									<a class="btn-border btn-radius" href="javascript:void(0);">Learn More</a>
+								</div>
 							</div>
 						</div><!-- entry-txt -->
 					</div><!-- row -->
@@ -201,7 +203,9 @@
 								<div class="overall-cost">Overall cost for comparison <span class="text-black">3.7% APRC</span></div>
 							</div>
 							<div class="link">
-								<a class="btn-border btn-radius" href="javascript:void(0);">Learn More</a>
+								<div class="bd">
+									<a class="btn-border btn-radius" href="javascript:void(0);">Learn More</a>
+								</div>
 							</div>
 						</div><!-- entry-txt -->
 					</div><!-- row -->
@@ -224,7 +228,9 @@
 								<div class="overall-cost">Overall cost for comparison <span class="text-black">3.7% APRC</span></div>
 							</div>
 							<div class="link">
-								<a class="btn-border btn-radius" href="javascript:void(0);">Learn More</a>
+								<div class="bd">
+									<a class="btn-border btn-radius" href="javascript:void(0);">Learn More</a>
+								</div>
 							</div>
 						</div><!-- entry-txt -->
 					</div><!-- row -->

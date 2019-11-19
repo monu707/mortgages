@@ -123,6 +123,9 @@
 	.pagination-bx{
 		margin-bottom: 3rem;
 	}
+	.matching-mortgages-offers{
+		margin-top: 2rem;
+	}
 }
 @media (max-width: 767px){
 	.h1, h1{font-size: 3rem;}
@@ -171,8 +174,21 @@
 }
 
 @media (max-width: 575px){
-	.h1, h1{font-size: 2.5rem;}
+	.h1, h1{font-size: 2.2rem;}
 	.h2, h2{font-size: 1.3rem;}
+	.p-4{padding: 1rem!important;}
+	.btn-large{
+		min-width: 150px;
+		padding: 0.7rem 1.5rem;
+	}
+	.white-btn{
+		font-size: 0.75rem;
+		padding: 0.4rem 1.5rem;
+	}
+	.common-icon-bx{
+		padding: 1rem;
+		.icon{display: inline-block;}
+	}
 	.main-header{
 		.navbar-brand{
 			margin: 0 auto 10px;
@@ -191,6 +207,10 @@
 					font-size: 1.1rem;
 				}
 			}
+		}
+		.icon-toggle{
+			position: relative;
+			top:4px;
 		}
 	}
 	a.bar-li{margin-left: 1rem;}
@@ -218,6 +238,48 @@
 				line-height: 1.5rem;
 			}
 		}
+	}
+	.form-bx{
+		.form-control{font-size: 0.875rem;}
+	}
+	#borrow-calculate-form{
+		margin-bottom: 2.5rem;
+	}
+	#bestguys-calculate-form{
+		[class*="col-"].mt-5{margin-top: 0 !important;}
+	}
+	.footer-top{
+		ul > li > a{
+			font-size: 0.75rem;
+			padding: 0.3rem 1rem;
+		}
+	}
+	.latest-offers-dv{
+		.entry-txt{
+			width: 100%;
+			padding: 1.5rem 0 0 !important;
+		}
+	}
+	.latest-awars{
+		.img{
+			border-right: none;
+		}
+		.entry-txt{
+			width: 100%;
+			border-bottom: 5px solid $color-blue;
+		}
+	}
+	.latest-awars-sec .pagination-bx{margin-bottom: 0;}
+
+	.meet-you-sec {
+		.img {
+			.row{margin: 0;}
+			[class*="col-"]{padding: 0;}
+		}
+		.col-md-6.pl-0{
+			padding-left: 15px;
+		}
+		.img-3{margin-top: 0;}
 	}
 }
 

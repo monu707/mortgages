@@ -126,7 +126,7 @@
 			</div><!-- title-bx -->
 			
 			<div class="row">
-				<div class="col-lg-3 col-md-4 bg-white box-shadow">
+				<div class="col-lg-3 bg-white box-shadow">
 					<div class="row p-3 justify-content-between">
 						<div class="title-bx filters-title-bx">
 							<h4 class="entry-title m-0 pb-0">Filters</h4>
@@ -231,7 +231,7 @@
 					</div><!-- filter-sec -->
 				</div><!-- col -->
 
-				<div class="col-lg-9 col-md-8">
+				<div class="col-lg-9">
 					<div class="matching-mortgages-offers">
 						<div class="latest-offers-bx">
 							<div class="latest-offers-dv p-4 box-shadow bg-white">

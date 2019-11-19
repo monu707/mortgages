@@ -138,7 +138,6 @@
 											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, quis quae quisquam non laborum modi nisi sit!.
 										</div>
 										<p class="small my-2">Posted 1 month Ago</p>
-										<h6 class="text-blue">Review</h6>
 									</div>
 								</div>
 
@@ -148,7 +147,6 @@
 											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, quis quae quisquam non laborum modi nisi sit!.
 										</div>
 										<p class="small my-2">Posted 1 month Ago</p>
-										<h6 class="text-blue">Review</h6>
 									</div>
 								</div>
 
@@ -158,10 +156,10 @@
 											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, quis quae quisquam non laborum modi nisi sit!.
 										</div>
 										<p class="small my-2">Posted 1 month Ago</p>
-										<h6 class="text-blue">Review</h6>
 									</div>
 								</div>
 							</div><!-- c-review-slider -->
+							<h6 class="text-blue">Review</h6>
 						</div><!-- c-review-slider-dv -->
 
 					</div><!-- sidebar-bx -->
