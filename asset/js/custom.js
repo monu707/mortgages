@@ -3,10 +3,12 @@
 // main navigation hide close
 function openNav() {
 	document.getElementById("mySidenav").style.height = "100%";
+	$("body").css("overflow","hidden");
 }
 
 function closeNav() {
 	document.getElementById("mySidenav").style.height = "0";
+	$("body").css("overflow","visible");
 }
 
 
@@ -43,6 +45,7 @@ function noIframe() {
 
 // A $( document ).ready() block.
 $( document ).ready(function() {
+	
 	$('.sub-menu').each(function(){
 		$(this).parent().children('a').after('<span class="icon-toggle"><i class="fa fa-angle-right" aria-hidden="true"></i></span>');
 	});

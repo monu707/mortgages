@@ -55,7 +55,9 @@
 	min-height: 420px;
 	span{display: inline-block;}
 	.icon{
-		background: url(../img/icon-background.png) center no-repeat;
+		background-image: url(../img/icon-background.png);
+		background-repeat: no-repeat;
+		background-position: center;
 		background-size: contain;
 		height: 130px;
 		width: 130px;
@@ -87,11 +89,10 @@
 		color:$color-white;
 		border-radius: 1rem;
 		.icon{
-			background: url(../img/white-shape.png) center no-repeat;
-			background-size: contain;
 			transform: translateX(-50px);
 			.white-icon{display: none;}
 			.blue-icon{display: inline-block;}
+			background-image: url(../img/white-shape.png);
 		}
 		.entry-txt{
 			opacity: 1;

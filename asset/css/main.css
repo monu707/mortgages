@@ -932,7 +932,9 @@ a.bar-li {
   .work-bx span {
     display: inline-block; }
   .work-bx .icon {
-    background: url(../img/icon-background.png) center no-repeat;
+    background-image: url(../img/icon-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: contain;
     height: 130px;
     width: 130px;
@@ -964,9 +966,8 @@ a.bar-li {
     color: #ffffff;
     border-radius: 1rem; }
     .work-bx:hover .icon, .work-bx:focus .icon {
-      background: url(../img/white-shape.png) center no-repeat;
-      background-size: contain;
-      transform: translateX(-50px); }
+      transform: translateX(-50px);
+      background-image: url(../img/white-shape.png); }
       .work-bx:hover .icon .white-icon, .work-bx:focus .icon .white-icon {
         display: none; }
       .work-bx:hover .icon .blue-icon, .work-bx:focus .icon .blue-icon {
@@ -1547,6 +1548,9 @@ a.bar-li {
     margin-bottom: 3rem; }
 
   .matching-mortgages-offers {
+    margin-top: 2rem; }
+
+  .sidebar-sec {
     margin-top: 2rem; } }
 @media (max-width: 767px) {
   .h1, h1 {
